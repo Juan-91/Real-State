@@ -1,0 +1,39 @@
+/***Header***/
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: arial;
+}
+
+p{
+    line-height: 2;
+}
+
+a{
+text-decoration:none;
+color: white;
+}
+
+.header1{
+    background-image: url(./img/header.jpg);
+    background-size: cover;
+    text-align: Center;
+    color: white;
+    height: 300px;
+    
+}
+
+.header1 p{
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+.header1 a{
+    padding: 5px;
+}
+
+
+
