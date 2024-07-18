@@ -5,17 +5,16 @@
 }
 
 body{
-    font-family: arial;
-}
-
-p{
-    line-height: 2;
+    font-family: "Edu Australia VIC WA NT Hand", sans-serif;
 }
 
 a{
 text-decoration:none;
 color: white;
 }
+
+
+/***Headers***/
 
 .header1{
     background-image: url(./img/header.jpg);
@@ -36,4 +35,58 @@ color: white;
 }
 
 
+/***Index***/
+
+.main-about1 h2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.main-about1 p{
+    margin-bottom: 25px;
+}
+
+.about2{
+    display:flex;
+    flex-direction: row;
+}
+
+/***House***/
+
+
+.flex-houses{
+    display: flex;
+    flex-direction:row;
+}
+
+.flex-house1, .flex-house2, .flex-house3{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-details{
+    display: black;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.house-item-text{
+    background-color: rgb(242, 240, 240);
+    height: 250px;
+    margin-top: -4px;
+    margin-right: 19px;
+}
+
+.fl-h1{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.fl-h1 p{
+    margin-left: 20px;
+}
 
