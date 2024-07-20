@@ -20,6 +20,11 @@ body{
     padding: 10px;
 }
 
+a{
+text-decoration: none;
+color: black;
+}
+
 /***Headers***/
 
 .header1{
@@ -106,39 +111,34 @@ body{
 }
 
 /***Contact***/
+
 .contact-cont{
     text-align: center;
     margin-top: 10px;
     margin-left: 300px;
     margin-right: 300px  
 }
+
 .info-cont{
     padding:20px;
     margin-left: 300px;
     margin-right: 300px;
 }
 
-.info-cont fieldset{
+fieldset{
     margin-bottom: 10px;
 }
 
-.personal-info{
-   background-color: rgb(231, 231, 231);
-    background-size: cover; 
+.personal-info, .product-info, .contact-info{
+    background-color: rgb(231, 231, 231);
+    background-size: cover;
+    border-radius: 10px;
 }
 
-.product-info{
-   background-color: rgb(231, 231, 231);
-    background-size: cover; 
-}
 
-.contact-info{
-   background-color: rgb(231, 231, 231);
-    background-size: cover; 
-}
 .personal-info div{
     padding: 10px;
-    height: -200px; 
+    height: -200px;
 }
 
 .product-info div{
@@ -148,7 +148,7 @@ body{
 }
 
 .contact-info div{
-    padding: 30px;
+    padding: 40px;
     height: -100px;
 }
 
@@ -156,15 +156,35 @@ body{
 .em-dat1 span{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-between;
+    margin-right: 150px;
 }
-
-
 
 .em-dat2 span{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    text-align: left;
 }
 
+.em-dat1 input{
+  display: inline-block;
+  width: 70%;
+}
+
+
+/***Bottom***/
+
+.lower-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(231, 231, 231);
+    height: 50px;
+}
+
+.lower-sec p{
+    margin-top: 20px;
+}
+.lower-sec span{
+    margin-top: 20px;
+}
