@@ -8,11 +8,17 @@ body{
     font-family: "Edu Australia VIC WA NT Hand", sans-serif;
 }
 
-a{
-text-decoration:none;
-color: white;
+.menu1 a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
 }
 
+.menu2 a{
+    text-decoration:none;
+    color: black;
+    padding: 10px;
+}
 
 /***Headers***/
 
@@ -25,13 +31,17 @@ color: white;
     
 }
 
-.header1 p{
-    font-size: 15px;
-    margin-top: 6px;
-}
 
-.header1 a{
-    padding: 5px;
+
+.header2{
+    text-decoration: none;
+    background-color: orange;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    height: 100px;
+    padding: 50px;
 }
 
 
@@ -51,6 +61,7 @@ color: white;
     flex-direction: row;
 }
 
+
 /***House***/
 
 
@@ -62,7 +73,7 @@ color: white;
 .flex-house1, .flex-house2, .flex-house3{
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .btn-details{
@@ -88,5 +99,72 @@ color: white;
 
 .fl-h1 p{
     margin-left: 20px;
+}
+
+.price{
+    color: rgb(10, 192, 0);
+}
+
+/***Contact***/
+.contact-cont{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 300px  
+}
+.info-cont{
+    padding:20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.info-cont fieldset{
+    margin-bottom: 10px;
+}
+
+.personal-info{
+   background-color: rgb(231, 231, 231);
+    background-size: cover; 
+}
+
+.product-info{
+   background-color: rgb(231, 231, 231);
+    background-size: cover; 
+}
+
+.contact-info{
+   background-color: rgb(231, 231, 231);
+    background-size: cover; 
+}
+.personal-info div{
+    padding: 10px;
+    height: -200px; 
+}
+
+.product-info div{
+    padding: 10px;
+    height: -50px;
+   
+}
+
+.contact-info div{
+    padding: 30px;
+    height: -100px;
+}
+
+
+.em-dat1 span{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+
+
+.em-dat2 span{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
 }
 
