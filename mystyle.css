@@ -1,4 +1,5 @@
 /***Header***/
+
 *{
     margin:0;
     padding:0;
@@ -14,15 +15,16 @@ body{
     padding: 10px;
 }
 
+
 .menu2 a{
     text-decoration:none;
-    color: black;
+    color: rgba(0, 0, 0, 0.815);
     padding: 10px;
 }
 
 a{
 text-decoration: none;
-color: black;
+color: rgb(0, 0, 0);
 }
 
 /***Headers***/
@@ -33,10 +35,7 @@ color: black;
     text-align: Center;
     color: white;
     height: 300px;
-    
 }
-
-
 
 .header2{
     text-decoration: none;
@@ -49,6 +48,26 @@ color: black;
     padding: 50px;
 }
 
+.header3{
+    text-decoration: none;
+    background-color: rgba(20, 20, 51, 0.747);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(219, 211, 211);
+    height: 60px;
+    padding: 50px;
+}
+
+.header4{
+    background-image: url(./img/header.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 80px;
+    padding: 50px;
+}
 
 /***Index***/
 
@@ -67,8 +86,7 @@ color: black;
 }
 
 
-/***House***/
-
+/***Houses***/
 
 .flex-houses{
     display: flex;
@@ -182,9 +200,149 @@ fieldset{
     height: 50px;
 }
 
+.lower-sec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgba(12, 83, 141, 0.301);
+    height: 50px;
+    color: white;
+}
+
 .lower-sec p{
     margin-top: 20px;
 }
 .lower-sec span{
     margin-top: 20px;
 }
+.lower-sec2 p{
+    margin-top: 20px;
+}
+.lower-sec2 span{
+    margin-top: 20px;
+}
+
+/***About***/
+.title-about{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(101, 92, 184);
+    opacity: 60%;
+    color: rgba(253, 253, 253, 0.589);
+    letter-spacing: 80px;
+}
+
+ul{
+    list-style-type: none;
+    margin-right:200px;
+    margin-left:100px;
+    padding: 10px;
+}
+
+.img-area{
+    background-image: url(./img/about1.jpg);
+    background-size: contain;
+    background-position: center;
+    border-radius: 15px;
+    color: white;
+    height: 500px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.img-text{
+    justify-content: center;
+    text-align: center;
+    word-spacing: 10px;
+    font-size: 25px;
+    padding: 80px;
+    margin-top: 10px;
+}
+
+.img-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    opacity: 80%;
+}
+
+.img-1{
+    border-radius:60px;
+}
+
+/***Blog***/
+.title-blog{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(16, 61, 75);
+    opacity: 60%;
+    color: rgba(253, 253, 253, 0.589);
+    letter-spacing: 80px;
+}
+
+.blog-imgs img{
+}
+
+.blog-row1{
+    
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    text-align: left;
+    
+}
+.blog-row2{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.blog-1{
+    text-align: left;
+    background-color: rgba(99, 92, 92, 0.137);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right:20px;
+}
+
+.blog-1 h3{
+    padding: 5px;
+}
+
+.blog-1 p{
+    padding:5px;
+}
+
+.blog-date{
+    font-size:12px;
+    margin-top:10px;
+    margin-bottom:-5px;
+    color: rgba(0, 0, 0, 0.493);
+}
+
+.btn-blog{
+    opacity: 80%;
+    background-color: rgba(12, 83, 141, 0.432);
+    color: rgba(255, 255, 255, 0.849);
+    border-radius: 5px;
+    padding: 1px;
+    width: 75px;
+    margin-left: 220px;
+    margin-top: 30px;
+}
+
+.btn-blog2{
+    opacity: 80%;
+    background-color: rgba(12, 83, 141, 0.432);
+    color: rgba(255, 255, 255, 0.849);
+    border-radius: 5px;
+    padding: 1px;
+    width: 75px;
+    margin-left: 220px;
+    margin-top:13px;
+    margin-bottom: 5px;
+}
+
+
